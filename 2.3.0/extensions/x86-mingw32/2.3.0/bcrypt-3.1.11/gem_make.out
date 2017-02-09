@@ -1,0 +1,20 @@
+current directory: C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-3.1.11/ext/mri
+C:/RailsInstaller/Ruby2.3.0/bin/ruby.exe -r ./siteconf20170208-1152-1f6jyq8.rb extconf.rb
+creating Makefile
+
+current directory: C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" clean
+
+current directory: C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR="
+generating bcrypt_ext-i386-mingw32.def
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20170208-1152-fj8fhb
